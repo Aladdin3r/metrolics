@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 62.5%;
   line-height: 1.4;
 }
 :root {
@@ -22,6 +22,9 @@ html {
   --cardText: white;
   font-family: "Ubuntu";
   font-weight: thin;
+}
+.bold {
+  font-weight: bold;
 }
 /*
  * Remove text-shadow in selection highlight:
