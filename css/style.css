@@ -16,7 +16,13 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
+:root {
+  --headingColour: #3b3b3b;
+  --textColour: #bebebe;
+  --cardText: white;
+  font-family: "Ubuntu";
+  font-weight: thin;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
