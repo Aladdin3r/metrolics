@@ -90,7 +90,9 @@ html {
   font-family: "Ubuntu";
   font-weight: thin;
 }
-
+.bold {
+  font-weight: bold;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

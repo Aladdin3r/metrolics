@@ -10,74 +10,74 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-.inner-container {
-  display: flex;
-  place-content: center;
-  margin-right: 40%;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.title {
-  margin-top: 5%;
-  font-size: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: #31CAE5;
-}
-
-.second-header {
-  padding-top: 30%;
-  padding-bottom: 30%;
-}
-.logo-icon {
-  width: 5%;
-}
-
-.content-menu {
-  flex-direction: row;
-
-}
-.menu-icons {
-  width: 15%;
-  height: 15%;
+   .inner-container {
+    display: flex;
+    place-content: center;
+    margin-right: 40%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   
-}
-
-.intro-image {
-  width: 165%;
-}
-
-.content-parragraphs {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 40%;
-  text-align: center;
-}
-
-.title-small {
-  font-size: 50%;
-  text-align: center;
-}
-.about-us-icons {
-  width: 15%;
-  height: 15%;
-}
-
-.section-about-us {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.inner-content-main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  .title {
+    margin-top: 5%;
+    font-size: 100%;
+  }
   
-}
+  a {
+    text-decoration: none;
+    color: #31CAE5;
+  }
+  
+  .second-header {
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+  .logo-icon {
+    width: 5%;
+  }
+  
+  .content-menu {
+    flex-direction: row;
+  
+  }
+  .menu-icons {
+    width: 15%;
+    height: 15%;
+    
+  }
+  
+  .intro-image {
+    width: 165%;
+  }
+  
+  .content-parragraphs {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40%;
+    text-align: center;
+  }
+  
+  .title-small {
+    font-size: 50%;
+    text-align: center;
+  }
+  .about-us-icons {
+    width: 15%;
+    height: 15%;
+  }
+  
+  .section-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
 html {
   color: #222;
   font-size: 62.5%;
@@ -90,7 +90,9 @@ html {
   font-family: "Ubuntu";
   font-weight: thin;
 }
-
+.bold {
+  font-weight: bold;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
