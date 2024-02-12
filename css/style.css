@@ -460,3 +460,99 @@
      line-height: 1.4;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
+
+   @media only screen and (max-width: 700px) {
+      html {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        color: #222;
+        font-size: 1rem;
+        line-height: 1.4;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: auto;
+        flex-wrap: nowrap;
+        margin-bottom: 0%;
+      }
+      .minion-image img {
+      display: none;
+      margin: 0%;
+    }
+    .main-content {
+      margin-top: 0;
+      justify-content: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .inner-content-main {
+      display: flex;
+      flex-flow: row wrap;
+      width: 30%;
+    }
+    .inner-content-samples {
+      display: flex;
+      flex-flow: column wrap;
+      gap: 1rem;
+      align-items: center;
+      width: 80%;
+      justify-content: center;
+      align-content: center;
+    }
+    .inner-content-projects {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: warp;
+      width: 300%;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin-bottom: 5%;
+    }
+    .closing-images {
+      display: none;
+    }
+    .content-logos {
+      display: none;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    footer p {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      display: none;
+    }
+    .flickr {
+      display: none;
+    }
+    .minion_grid {
+      display: none;
+    }
+    .tweet {
+      display: flex;
+      flex-direction: column;
+    }
+    .last {
+      display: none;
+    }
+    .colours img {
+      width: 10%;
+      padding: 0%;
+     }
+  }
